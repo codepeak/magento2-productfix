@@ -1,0 +1,21 @@
+{
+  "name": "codepeak/magento2-productfix",
+  "description": "Solves the error with updated_at field not updating",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Robert Lord, Codepeak AB",
+      "email": "robert@codepeak.se"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Codepeak\\Productfix\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
